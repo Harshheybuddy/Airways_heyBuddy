@@ -1,0 +1,35 @@
+.heading1{
+    /* Who We Are */
+
+
+
+font-family: 'Nunito';
+font-style: normal;
+font-weight: 500;
+font-size: 24px;
+line-height: 33px;
+/* identical to box height */
+text-align: center;
+
+/* Grey */
+color: #9C9C9C;
+
+
+
+
+}
+
+.heading2{
+    /* Why charter your private jet with Kaushambi Airways? */
+font-family: 'Opulent';
+font-style: normal;
+font-weight: 5;
+font-size: 48px;
+line-height: 57px;
+text-align: center;
+
+/* White 1 */
+color: #FFFFFF;
+
+
+}

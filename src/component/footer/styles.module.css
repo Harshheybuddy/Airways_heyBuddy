@@ -1,0 +1,83 @@
+.subtext{
+  
+
+  font-family: 'Nunito';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 30px;
+  /* or 150% */
+  text-transform: capitalize;
+  
+  color: #000000;
+  
+  
+  }
+  
+  .heading{
+      /* Global Fleet */
+  
+  font-family: 'Opulent';
+  font-style: normal;
+  font-weight: 5;
+  font-size: 24px;
+  line-height: 29px;
+  /* identical to box height */
+  text-transform: capitalize;
+  
+  color: #000000;
+  
+  
+  }
+  
+  .list{
+  
+  font-family: 'Nunito';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22px;
+  /* identical to box height */
+  text-transform: capitalize;
+  
+  color: #000000;
+  margin-top: 1rem;
+  
+  }
+  
+  .copyright{
+      padding:2rem 6rem;
+      background: #4F4F4F;
+      display:flex;
+      justify-content: space-between;
+      align-items: center;
+  
+  
+      
+  }
+  
+  .copyrightpara{
+      color:white;
+      font-size: 0.75rem;
+      /* text-align: center; */
+      /* margin-top: 1rem; */
+  }
+  
+  .contactdiv{
+      display: flex;
+      justify-content: space-between;
+      gap: 0.5rem;
+      align-items: center;
+  }
+  
+  .socialdiv{
+      width: 2rem;
+      height: 2rem;
+      /* padding:0.5rem; */
+      border-radius: 9999px;
+      background-color: white;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      cursor:pointer;
+  }

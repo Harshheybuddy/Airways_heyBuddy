@@ -1,0 +1,88 @@
+
+.heading{
+    /* Who We Are */
+
+
+font-family: 'Opulent';
+font-style: normal;
+font-weight: 5;
+font-size: 48px;
+line-height: 60px;
+/* identical to box height, or 125% */
+display: flex;
+align-items: center;
+
+color: #FFFFFF;
+
+
+
+
+
+
+}
+
+.heading1{
+ 
+font-family: 'Manrope';
+font-style: normal;
+font-weight: 500;
+font-size: 24px;
+line-height: 33px;
+/* identical to box height */
+text-align: center;
+
+/* Grey */
+color: #9C9C9C;
+
+
+}
+
+
+.para{
+    /* At Kaushambi Airways, we pride ourselves on delivering unmatched performance in every aspect of our services. From the moment you step through our doors, you are met with a commitment to excellence that permeates every facet of our operation. Our state-of-the-art facilities are meticulously maintained to provide a seamless and luxurious experience, whether you’re preparing for a flight or arriving at your destination. */
+
+
+font-family: 'Nunito';
+font-style: normal;
+font-weight: 300;
+font-size: 24px;
+line-height: 42px;
+/* or 175% */
+
+/* White 1 */
+color: #FFFFFF;
+
+
+white-space: pre-line;
+
+
+}
+
+.btn{
+    padding:1rem 2rem;
+    border: 1px solid white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: fit-content;
+    gap:1rem;
+    border-radius: 8px;
+}
+
+.btntext{
+    /* Get To Know More */
+
+
+font-family: 'Nunito';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 22px;
+/* identical to box height */
+letter-spacing: 0.02em;
+
+/* White 1 */
+color: #FFFFFF;
+
+
+}

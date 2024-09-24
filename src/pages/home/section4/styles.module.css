@@ -1,0 +1,58 @@
+.heading{
+
+font-family: 'Opulent';
+font-style: normal;
+font-weight: 5;
+font-size: 48px;
+line-height: 60px;
+/* or 125% */
+display: flex;
+align-items: center;
+text-align: center;
+
+color: #FFFFFF;
+}
+
+.listtext{
+font-family: 'Nunito';
+font-style: normal;
+font-weight: 300;
+font-size: 20px;
+line-height: 30px;
+/* or 150% */
+
+/* White 1 */
+color: #FFFFFF;
+margin-left: 2rem;
+margin-top: 1.5rem;;
+}
+
+
+.btn{
+    padding:1rem 2rem;
+    border: 1px solid white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: fit-content;
+    gap:1rem;
+    border-radius: 8px;
+}
+
+.btntext{
+    /* Get To Know More */
+
+
+font-family: 'Nunito';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 22px;
+/* identical to box height */
+letter-spacing: 0.02em;
+
+/* White 1 */
+color: #FFFFFF;
+
+
+}

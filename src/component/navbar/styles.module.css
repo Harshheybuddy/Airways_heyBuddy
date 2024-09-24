@@ -1,0 +1,171 @@
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: white;
+    padding: 0.5rem 4rem;
+    position: fixed;
+    z-index: 1000;
+    left: 0;
+    right: 0;
+    transition: top 0.3s;
+  }
+  
+  .visible {
+    top: 0;
+  }
+  
+  .hidden {
+    top: -100%;
+  }
+  
+  .textSection {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 2rem;
+  }
+  
+  .midSection {
+    width: 8rem;
+  }
+  
+  .logo {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+  }
+  
+  .subtext {
+    cursor: pointer;
+    font-family: 'Nunito', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 21px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 3.36px;
+    text-transform: uppercase;
+    color: #000000;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    height: 60px;
+  }
+  
+  .dropdownWrapper {
+    position: relative;
+  }
+  
+  .dropdown {
+    position: absolute;
+    top: 60px;
+    left: -50%;
+    right: -50%;
+    background: #FFFEFE;
+    min-width: fit-content;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    z-index: 1000;
+  }
+  
+  .list {
+    padding: 0.5rem 1rem;
+    white-space: nowrap;
+  }
+  
+  .listtext {
+    font-family: 'Nunito', sans-serif;
+    font-size: 14px;
+    color: #000000;
+  }
+  
+  .mobileMenuIcon {
+    display: none;
+  }
+  
+  .mobileMenu {
+    display: none;
+  }
+  
+  @media (max-width: 768px) {
+    .container {
+      padding: 0.5rem 2rem;
+    }
+  
+    .textSection {
+      display: none;
+    }
+  
+    .midSection {
+      width: 6rem;
+    }
+  
+    .mobileMenuIcon {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-around;
+      width: 2rem;
+      height: 2rem;
+      background: transparent;
+      border: none;
+      cursor: pointer;
+      padding: 0;
+      z-index: 10;
+    }
+  
+    .mobileMenuIcon div {
+      width: 2rem;
+      height: 0.25rem;
+      background: #000000;
+      border-radius: 10px;
+      transition: all 0.3s linear;
+      position: relative;
+      transform-origin: 1px;
+    }
+  
+    .mobileMenu {
+      display: flex;
+      flex-direction: column;
+      background-color: white;
+      position: fixed;
+      top: 0;
+      right: -100%;
+      height: 100vh;
+      width: 70%;
+      max-width: 300px;
+      padding-top: 5rem;
+      transition: right 0.3s ease-in-out;
+      box-shadow: -2px 0 5px rgba(0,0,0,0.1);
+    }
+  
+    .mobileMenuOpen {
+      right: 0;
+    }
+  
+    .mobileSubtext {
+      font-family: 'Nunito', sans-serif;
+      font-size: 16px;
+      padding: 1rem 2rem;
+      text-transform: uppercase;
+      color: #000000;
+      cursor: pointer;
+    }
+  
+    .mobileDropdownWrapper {
+      position: relative;
+    }
+  
+    .mobileDropdown {
+      background: #F5F5F5;
+      padding-left: 1rem;
+    }
+  
+    .mobileList {
+      padding: 0.5rem 1rem;
+    }
+  
+    .mobileListtext {
+      font-family: 'Nunito', sans-serif;
+      font-size: 14px;
+      color: #000000;
+    }
+  }

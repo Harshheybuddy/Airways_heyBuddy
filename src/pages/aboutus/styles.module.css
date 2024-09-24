@@ -1,0 +1,6 @@
+.container{
+    background-image: url('https://heybuddystorage.blob.core.windows.net/s3-migratedheybuddy/airways_Assets/ellipse');
+  background-size: contain; /* This makes the image cover the entire background */
+  background-repeat: no-repeat; /* This prevents the image from repeating */
+  background-position: center; /* This centers the image */
+}

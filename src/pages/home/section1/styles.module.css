@@ -1,0 +1,133 @@
+.container {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+  align-items: center;
+  padding: 2rem 1rem;
+}
+
+.heading {
+  color: #ffffff;
+  background: linear-gradient(to right, #4d4d4d 0, white 10%, #4d4d4d 20%);
+  background-position: 0;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: shine 5s infinite linear;
+  animation-fill-mode: forwards;
+  -webkit-text-size-adjust: none;
+  font-family: 'Opulent';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 80px;
+  text-align: center;
+  max-width: 100%;
+}
+
+@keyframes shine {
+  0% {
+    background-position: 0;
+  }
+  100% {
+    background-position: 100vw;
+  }
+}
+
+.para {
+  font-family: 'Nunito';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 29px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #FFFFFF;
+  max-width: 100%;
+}
+
+.imageWrapper {
+  position: relative;
+  width: 100%;
+  /* max-width: 1200px; */
+}
+
+.mainImage {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+.shadowImageWrapper {
+  position: relative;
+  margin-top: -8rem;
+}
+
+.shadowImage {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  opacity: 0.1;
+}
+
+.searchbarWrapper {
+  position: absolute;
+  left: 5%;
+  right: 5%;
+  bottom: 0;
+  width: 90%;
+}
+
+@media (max-width: 1024px) {
+  .heading {
+    font-size: 60px;
+  }
+
+  .para {
+    font-size: 20px;
+    line-height: 24px;
+  }
+}
+
+@media (max-width: 768px) {
+  .container {
+    gap: 2rem;
+  }
+
+  .heading {
+    font-size: 48px;
+  }
+
+  .para {
+    font-size: 18px;
+    line-height: 22px;
+  }
+
+  .shadowImageWrapper {
+    margin-top: -6rem;
+  }
+
+  .searchbarWrapper {
+    position: relative;
+    left: 0;
+    right: 0;
+    bottom: auto;
+    width: 100%;
+    margin-top: 2rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .heading {
+    font-size: 36px;
+  }
+
+  .para {
+    font-size: 16px;
+    line-height: 20px;
+  }
+
+  .shadowImageWrapper {
+    margin-top: -4rem;
+  }
+}
